@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid-19</title>
+    <link rel="stylesheet" href="/contact.css">
+    <nav align="center">
+        <a href="index.html">Home</a>|
+        <a href="About.html">About</a>|
+        <a href="cases.html">cases</a>|
+        <a href="contact.html">Contact</a>
+    </nav>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+   <div class="container">  
+    <form id="contact" action="https://formspree.io/mqkyodqz" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+   
+    
+  </div>
+</head>
+</body>
+</html>
